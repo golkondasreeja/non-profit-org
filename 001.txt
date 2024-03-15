@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Nonprofit Organization</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #99775C;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* Header styling */
+        header {
+            background-color: #4F0341;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        /* Navigation menu */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        /* Main content area */
+        .main-content {
+            padding: 20px;
+            background-color: #99775C;
+        }
+        /* Footer styling */
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #4F0341;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+       <header>
+        <h1>Hopeful Hearts Foundation</h1>
+        <p>Empowering Communities, Changing Lives</p>
+    </header>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#donate">Donate</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="main-content">
+            <section id="about">
+                <h2>About Us</h2>
+                <p>Our nonprofit organization is dedicated to serve the needy people</p>
+            </section>
+            <section id="programs">
+                <h2>Our Programs</h2>
+                <p>We offer various programs including Educational Programs, Health and Wellness Programs, Social Services, Arts and Culture, Animal Welfare, Research and Education.</p>
+            </section>
+            <section id="events">
+                <h2>Upcoming Events</h2>
+                <ul>
+                    <li>Event 1: 31/03/2024, 8:00 am, Hyderabad</li>
+                    <li>Event 2: 11/06/2024, 4:00 pm, Hyderabad</li>
+                   
+                </ul>
+            </section>
+            <section id="donate">
+                <h2>Donate</h2>
+                <p>Your support makes a difference. Donate today!</p>
+                <button><a href="donate.html">Donate Now</a></button>
+            </section>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>Have questions? Reach out to us:</p>
+                <address>
+                    Email: <a href="mailto:info@nonprofit.org">info@nonprofit.org</a><br>
+                    Phone: +91 9360423110
+                </address>
+            </section>
+        </div>
+    </div>
+    <footer>
+        © 2024 Our Nonprofit Organization
+    </footer>
+</body>
+</html>

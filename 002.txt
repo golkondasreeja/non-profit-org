@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Nonprofit Organization</title>
+    <style>
+        /* Basic styling (adjust as needed) */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #99775C;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* Other styles (header, navigation, etc.) go here */
+
+        /* Donation form styling */
+        #donation-form {
+            background-color: #99775C;
+            padding: 20px;
+        }
+        #donation-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        #donation-form input[type="text"],
+        #donation-form input[type="tel"],
+        #donation-form input[type="email"],
+        #donation-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        #donation-form textarea {
+            resize: vertical;
+        }
+        #donation-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Header content goes here -->
+    </header>
+    <div class="container">
+        <nav>
+            <!-- Navigation menu goes here -->
+        </nav>
+        <div class="main-content">
+            <section id="about">
+                <!-- About Us content goes here -->
+            </section>
+            <section id="programs">
+                <!-- Programs content goes here -->
+            </section>
+            <section id="events">
+                <!-- Events content goes here -->
+            </section>
+            <section id="donate">
+                <h2>Donate</h2>
+                <form id="donation-form" action="https://your-donation-processing-page.com" method="POST">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+
+                    <label for="contact">Contact Number:</label>
+                    <input type="tel" id="contact" name="contact" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message (optional):</label>
+                    <textarea id="message" name="message" rows="4" cols="50"></textarea>
+
+                     <button><a href="11.html">Donate</a></button>
+
+                </form>
+            </section>
+            <section id="contact">
+                <!-- Contact Us content goes here -->
+            </section>
+        </div>
+    </div>
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+</body>
+</html>
